@@ -1,0 +1,14 @@
+### Post some data
+
+POST https://localhost:7242/
+
+{
+   "name": "John Doe","
+   "email": "john.doe@mail.com"
+}
+
+### Get history
+GET https://localhost:7242/history
+
+### Get entry from history
+GET https://localhost:7242/history/597566e8-ab56-4032-8fbf-8bfabcb5fcda
